@@ -2,7 +2,7 @@
 {% set version = "0.0.35" %}
 
 package:
-  name: "{{ name|lower }}"
+  name: "quantstatspd"
   version: "{{ version }}"
 
 source:
@@ -44,7 +44,7 @@ test:
     - quantstats._plotting
 
 about:
-  home: "https://github.com/ranaroussi/quantstats"
+  home: "https://github.com/nmred/quantstatspd"
   license: "Apache Software"
   license_family: "APACHE"
   license_file: ""
